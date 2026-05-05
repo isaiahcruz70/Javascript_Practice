@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id="countDisplay">0</h1>
+        <button id="addBtn">Add +1</button>
+        <button id="removeBtn">Remove -1</button>
+        <button id="resetBtn">Reset</button>
+        <p id="warningText" style="display: none;"></p>
+        <div class="input-group">
+            <input type="number" id="inputNumber" placeholder="Enter number" required pattern="[0-9\.]+">
+            <button id="addCustomBtn">Add</button>
+            <button id="subtractCustomBtn">Subtract</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
